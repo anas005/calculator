@@ -1,0 +1,31 @@
+<resources>
+<!-- inherit from the material theme -->
+<style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
+    <!-- Main theme colors -->
+    <!--   your app branding color for the app bar -->
+    <item name="android:colorPrimary">#3FA99F</item>
+
+
+     <!--   darker variant for the status bar and contextual app bars -->
+    <item name="android:colorPrimaryDark">#028181</item>
+    <!--   theme UI controls like checkboxes and text fields -->
+    <item name="android:colorAccent">#028181</item>
+    <item name="android:navigationBarColor">#3EA99F</item>
+
+<!--
+    <item name="android:spinnerItemStyle">@style/MooSpinnerItem</item>
+-->
+
+</style>
+
+<!--
+    <style name="MooSpinnerItem" parent="android:Theme.Material.Light">
+        <item name="android:textAppearance">@style/MooTextAppearanceSpinnerItem</item>
+    </style>
+
+    <style name="MooTextAppearanceSpinnerItem" parent="android:Theme.Material.Light">
+        <item name="android:textColor">@color/accent_material_light</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+-->
+</resources>
